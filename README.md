@@ -28,19 +28,23 @@ This is a project developed at the Rocketseat Ignite  - React Native - updated t
 Create a folder for your project named nlw/server.
 ```js
 npx expo init [projectName] 
-```
 cd [projectName]
-
+```
 
 ---
 
 # 🚀 Technologies used in this project
 The project was developed using the following technologies:
 
-- [x] JAVASCRIPT
-- [x] REACT NATIVE
-- [x] TYPESCRIPT
-- [x] STYLED COMPONENTS
+- [x] React Native CLI
+- [x] React Native EXPO
+- [x] Typescript
+- [x] componentização
+- [x] props (propriedades)
+- [x] Passar funções por parâmetros para o component
+- [x] ScrollView
+- [x] FlatList (mais performática)
+- [x] map
 
 # 📥 How to use
 ```js
