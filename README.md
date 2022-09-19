@@ -24,6 +24,14 @@ This is a project developed at the Rocketseat Ignite  - React Native, where the 
 
 - React Native CLI
 - React Native EXPO
+- Typescript
+- componentização
+- props (propriedades)
+- Passar funções por parâmetros para o component
+- ScrollView
+- FlatList (mais performática)
+- map
+
 
 
 ![Logo](readme2.png)

@@ -17,14 +17,14 @@ export const styles = StyleSheet.create({
     fontSize: 16
   },
   input:{
-    marginTop:20,
-
+    flex:1,
     backgroundColor:'#1f1e25',
     height:56,
     borderRadius:5,
     color:'#fff',
     padding:16,
-    fontSize:16
+    fontSize:16,
+    marginRight:12
   },
   buttonText:{
     color:'#fff',
@@ -37,5 +37,16 @@ export const styles = StyleSheet.create({
     backgroundColor:'#31cf67',
     alignItems:"center",
     justifyContent:'center'
+  },
+  form:{
+    width: '100%',
+    flexDirection:'row',
+    marginTop:36,
+    marginBottom:42
+  },
+  listEmptyText:{
+    color: '#fff',
+    fontSize:14,
+    textAlign:'center'
   }
 })
