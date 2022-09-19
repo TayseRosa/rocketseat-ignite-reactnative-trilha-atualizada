@@ -5,8 +5,7 @@
 <img src="readme.gif" style="height: 500px;">
 
 
-# Demo Web
-![Logo](readme.png)
+<img src="readme.jpeg" style="width: 50%; ">
 
 ---
 

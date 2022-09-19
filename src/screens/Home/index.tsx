@@ -5,7 +5,7 @@ import { styles } from "./styles";
 import { Participant } from "../../components/Participant";
 
 export default function Home() {
-    const participants = ['Rodrigo', 'Vini', 'Diego', 'Biro', 'Tayse', 'Theo', 'Pipoka', 'Myke', 'Jane', 'Diego Leite']
+    const participants = ['Rodrigo', 'Vini', 'Diego', 'Biro','Rodrigo2', 'Vini2', 'Diego2', 'Biro2','Vini3', 'Diego3', 'Biro3',]
 
     function handleParticipantAdd(name: string){
         if(participants.includes("Tayse")){
