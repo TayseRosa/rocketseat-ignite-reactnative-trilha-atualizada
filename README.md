@@ -84,16 +84,16 @@ The project was developed using the following technologies:
 # 📥 How to use
 ```js
 
-    //Clonar o repositório
-    $ git clone https://github.com/TayseRosa/Rocketseat-Ignite.git
+    //Clone the repository
+    $ git clone https://github.com/TayseRosa/rocketseat-ignite-reactnative-trilha-atualizada.git
+    
+    //Enter directory
+    $ cd rocketseat-ignite-reactnative-trilha-atualizada
 
-    //Entrar no diretório
-    $ cd Rocketseat-Ignite
-
-    //Instalar dependências
+    //Install dependencies
     $ npm install 
 
-    //Startar o projeto
+    //Start the project
     $ expo start
     
 
