@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 import { Text, View, TextInput, TouchableOpacity, ScrollView, FlatList, Alert } from "react-native";
 
@@ -15,6 +15,7 @@ export default function Home() {
         if(participants.includes(participantName)){
             return Alert.alert('Participante existe','Já existe um participante na lista com este nome');
         }
+
         setParticipants(prevState => [ ...prevState, participantName])
         setParticipantName('')//limpando o estado
     }
@@ -23,7 +24,7 @@ export default function Home() {
         Alert.alert("Remover", `Remover o participante ${name} ?`, [
             {
                 text: 'Sim', 
-                onPress: () => Alert.alert('Deletado!', `o participante ${name}`),
+                onPress: () => setParticipants(prevState => prevState.filter(participant => participant !== name)),
                 style: 'default'
             },
             {
@@ -31,12 +32,18 @@ export default function Home() {
                 style: 'cancel'
             }
         ]);
+
+    }
+
+    function handleStates (value: string){
+        setParticipantName(value)
+        console.log(participantName)
     }
 
     return (
         <View style={styles.container}>
             <Text style={styles.eventName}>
-                Nome do evento
+                Nome do evento 
             </Text>
 
             
@@ -50,11 +57,14 @@ export default function Home() {
                     placeholder='Nome do participante'
                     placeholderTextColor="#6b6b6b"
                     onChangeText={text => setParticipantName(text) }
+                    // onChangeText={handleStates}
                     value={participantName}
                 />
 
-                <TouchableOpacity style={styles.button} onPress={handleParticipantAdd} >
-                    <Text style={styles.buttonText}>+</Text>
+                <TouchableOpacity style={styles.button} onPress={e=>handleParticipantAdd(e)}>
+                    <Text style={styles.buttonText}>
+                        +
+                    </Text>
                 </TouchableOpacity>
             </View>
 

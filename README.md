@@ -22,7 +22,71 @@
 ---
 
 # About the project
+Este é um projeto desenvolvido no Rocketseat Ignite - React Native - trilha atualizada
+
+Este projeto que parece ser bem simples, mas ele é rico em conceitos muito utilizado no dia a dia de um dev React, listo abaixo alguns dos conceitos aprendidos / revisados neste primeiro projeto.
+
+- [x] O que é React Native? Quem Usa? O que é Expo?
+- [x] Fundamentos: Criar o projeto - Estrutura de pastas e arquivos e a executar o projeto
+- [x] Fundamentos: Funcionamento do React Native - Refresh e Reload - JSX
+- [x] Fundamentos: Estilizando elementos com StyleSheet - Densidade de Pixel(não utilizamos px)
+- [x] Fundamentos: Estilizando elementos com StyleSheet - StyleSheet
+- [x] Fundamentos: Estilizando elementos com StyleSheet - Flex Box - Flex Direction
+- [x] Fundamentos: Export e Export Default
+- [x] Fundamentos: Componentes - TextInput
+- [x] Fundamentos: Componentes - TouchableOpacity
+- [x] Fundamentos: Componentes - Criando um Componente
+- [x] Fundamentos: Componentes - Propriedades
+- [x] Fundamentos: Componentes - StatusBar
+- [x] Fundamentos: Componentes - Listas - ScollView(poucos elementos) e FlatList(mais Performática, lista maiores)
+- [x] Fundamentos: Alerts
+- [x] Fundamentos: Hooks - Conceito de Hooks
+- [x] Fundamentos: Hooks - useState
+- [x] Fundamentos: Hooks - Imutabilidade
+- [x] Fundamentos: Hooks - State e TextInput
+- [x] Fundamentos: Hooks - Render
+- [x] Fundamentos: Hooks - Manipulação de estados
+- [x] Fundamentos: Hooks - Estado Assíncrono
+
+Este projeto foi desenvolvido utilizando Expo, neste projeto foi utilizado o componente de Text para inserir as informações de titulo da aplicação, bem como o componente de TextInput, para obter as informações do usuario, e o TouchablOpacity para criar o botão.
+Logo abaixo na nossa interface, tem a nossa FlatList para listar as informações, e quando não tem informações preenchidas no array de dados da nossa FlatList, o app exibe a informação de "Ningém chegou no evento ainda? Adicione participantes a sua lista de presença."
+Trabalhamos com stylesheet, aprendemos que o Flex já vem habilitado por padrão no React Native, trabalhamos também com Flex direction.
+Trabalhamos utilizando o Alert do React native, tanto para exibir uma simples mensagem, quanto alert com condicionais de sim e não.
+Trabalhamos com statusBar tambem, além de hooks do react, e muito mais...
+
+<h3>Translate English</h3>
+
 This is a project developed at the Rocketseat Ignite  - React Native - updated trail
+
+This project that seems to be very simple, but it is rich in concepts very used in the day to day of a React dev, I list below some of the concepts learned / revised in this first project.
+
+- [x] What is React Native? Who use? What is Expo?
+- [x] Fundamentals: Creating the project - Folder and file structure and running the project
+- [x] Fundamentals: How React Native Works - Refresh and Reload - JSX
+- [x] Fundamentals: Styling elements with StyleSheet - Pixel Density (we don't use px)
+- [x] Fundamentals: Styling elements with StyleSheet - StyleSheet
+- [x] Fundamentals: Styling elements with StyleSheet - Flex Box - Flex Direction
+- [x] Fundamentals: Export and Export Default
+- [x] Fundamentals: Components - TextInput
+- [x] Fundamentals: Components - TouchableOpacity
+- [x] Fundamentals: Components - Creating a Component
+- [x] Fundamentals: Components - Properties
+- [x] Fundamentals: Components - StatusBar
+- [x] Fundamentals: Components - Lists - ScollView(few elements) and FlatList(more Performatic, larger lists)
+- [x] Fundamentals: Alerts
+- [x] Fundamentals: Hooks - Concept of Hooks
+- [x] Fundamentals: Hooks - useState
+- [x] Fundamentals: Hooks - Immutability
+- [x] Fundamentals: Hooks - State and TextInput
+- [x] Fundamentals: Hooks - Render
+- [x] Fundamentals: Hooks - State manipulation
+- [x] Fundamentals: Hooks - Asynchronous State
+
+This project was developed using Expo, in this project the Text component was used to insert the application's title information, as well as the TextInput component, to obtain the user's information, and TouchablOpacity to create the button.
+Just below our interface, there is our FlatList to list the information, and when there is no information filled in the data array of our FlatList, the app displays the information of "Nobody arrived at the event yet? Add participants to your attendance list. "
+We work with stylesheet, we learned that Flex is already enabled by default in React Native, we also work with Flex direction.
+We work using the Alert from React native, both to display a simple message and alert with yes and no conditionals.
+We work with statusBar too, in addition to react hooks, and much more...
 
 ---
 
@@ -121,8 +185,12 @@ The project was developed using the following technologies:
 - [x] Hooks (useState, useEffect etc...)
 - [x] Imutabilidade
 - [x] map
-- [x] includes, push etc..
+- [x] includes, push, filter(para usar em listas arrays) etc..
 - [x] Alert.alert
+- [x] console.log()
+- [x] console.warm()
+- [x] console.error()
+- [x] 
 
 # 📥 How to use
 ```js
