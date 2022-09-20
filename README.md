@@ -2,8 +2,8 @@
 <h1 align="center"> Project React Native - Rocketseat Ignite </h1>
 
 # Demo
-<img src="readme.jpeg" style="width: 50%; ">
-<!-- <img src="readme.gif" style="width: 50%; "> -->
+<!-- <img src="readme.jpeg" style="width: 50%; "> -->
+<img src="readme.gif" style="width: 30%; ">
 
 ---
 
